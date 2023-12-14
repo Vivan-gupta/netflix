@@ -1,0 +1,61 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  background-color: #111;
+  padding: 20px;
+  text-align: center;
+}
+
+.header img {
+  width: 150px;
+}
+
+.main-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 20px;
+}
+
+.movie-card {
+  margin: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.movie-card img {
+  width: 100%;
+  height: auto;
+}
+
+.movie-info {
+  padding: 15px;
+}
+
+.movie-info h3 {
+  margin: 0;
+}
+
+.movie-info p {
+  margin-top: 10px;
+}
+
+button {
+  background-color: red;
+  color: #fff;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+}
+button :hover{
+  background-color: #fff;
+  color: red;
+  border:1px solid red;
+  border-radius: 0.5;
+}
